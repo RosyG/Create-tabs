@@ -1,34 +1,41 @@
 body {
   background-color: #F1F3F2;
 }
-.box-menu {
-  /*margin: 0 auto;*/
-  width: 70%;
-}
 ul {
-  list-style: none;
   display: inline-block;
-  float: left;
+  list-style: none;
   margin-bottom: 0;
 }
 li {
   text-align: center;
+  display: inline-block;
 
 }
 button {
   padding: 40px 80px;
   background-color: #8FC4BD;
+  cursor: pointer;
   margin-left: 0;
   margin-right: 3px;
   margin-bottom: 0;
 
 }
 p {
+  display: none;
+}
+#invisible {
+  padding: 5% 15% 5% 10%;
   background-color: #fff;
   border: 1px solid black;
   clear: both;
   display: inline-block;
   margin-top: 0;
-  padding: 5% 15% 5% 10%;
   width: 100%;
+
+}
+.box-menu {
+  /*margin: 0 auto;*/
+  width: 70%;
+  margin-bottom: 0;
+  float: left;
 }
